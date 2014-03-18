@@ -21,6 +21,12 @@
 		3FC39FB018D7CAC700E98DAF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FC39F9218D7CAC700E98DAF /* UIKit.framework */; };
 		3FC39FB818D7CAC700E98DAF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3FC39FB618D7CAC700E98DAF /* InfoPlist.strings */; };
 		3FC39FBA18D7CAC700E98DAF /* My_StoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC39FB918D7CAC700E98DAF /* My_StoryTests.m */; };
+		3FC39FC818D7CB3500E98DAF /* female.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FC39FC318D7CB3500E98DAF /* female.png */; };
+		3FC39FC918D7CB3500E98DAF /* geek.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FC39FC418D7CB3500E98DAF /* geek.png */; };
+		3FC39FCA18D7CB3500E98DAF /* man.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FC39FC518D7CB3500E98DAF /* man.png */; };
+		3FC39FCB18D7CB3500E98DAF /* mystory.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FC39FC618D7CB3500E98DAF /* mystory.png */; };
+		3FC39FCC18D7CB3500E98DAF /* navControll.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FC39FC718D7CB3500E98DAF /* navControll.png */; };
+		3FC39FCF18D7D88900E98DAF /* UberView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC39FCE18D7D88900E98DAF /* UberView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +59,13 @@
 		3FC39FB518D7CAC700E98DAF /* My StoryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "My StoryTests-Info.plist"; sourceTree = "<group>"; };
 		3FC39FB718D7CAC700E98DAF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3FC39FB918D7CAC700E98DAF /* My_StoryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = My_StoryTests.m; sourceTree = "<group>"; };
+		3FC39FC318D7CB3500E98DAF /* female.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = female.png; sourceTree = "<group>"; };
+		3FC39FC418D7CB3500E98DAF /* geek.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = geek.png; sourceTree = "<group>"; };
+		3FC39FC518D7CB3500E98DAF /* man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = man.png; sourceTree = "<group>"; };
+		3FC39FC618D7CB3500E98DAF /* mystory.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mystory.png; sourceTree = "<group>"; };
+		3FC39FC718D7CB3500E98DAF /* navControll.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navControll.png; sourceTree = "<group>"; };
+		3FC39FCD18D7D88900E98DAF /* UberView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UberView.h; sourceTree = "<group>"; };
+		3FC39FCE18D7D88900E98DAF /* UberView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UberView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +132,8 @@
 				3FC39FA418D7CAC700E98DAF /* ViewController.m */,
 				3FC39FA618D7CAC700E98DAF /* Images.xcassets */,
 				3FC39F9518D7CAC700E98DAF /* Supporting Files */,
+				3FC39FCD18D7D88900E98DAF /* UberView.h */,
+				3FC39FCE18D7D88900E98DAF /* UberView.m */,
 			);
 			path = "My Story";
 			sourceTree = "<group>";
@@ -126,6 +141,11 @@
 		3FC39F9518D7CAC700E98DAF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3FC39FC318D7CB3500E98DAF /* female.png */,
+				3FC39FC418D7CB3500E98DAF /* geek.png */,
+				3FC39FC518D7CB3500E98DAF /* man.png */,
+				3FC39FC618D7CB3500E98DAF /* mystory.png */,
+				3FC39FC718D7CB3500E98DAF /* navControll.png */,
 				3FC39F9618D7CAC700E98DAF /* My Story-Info.plist */,
 				3FC39F9718D7CAC700E98DAF /* InfoPlist.strings */,
 				3FC39F9A18D7CAC700E98DAF /* main.m */,
@@ -228,9 +248,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FC39FCA18D7CB3500E98DAF /* man.png in Resources */,
+				3FC39FCB18D7CB3500E98DAF /* mystory.png in Resources */,
 				3FC39FA718D7CAC700E98DAF /* Images.xcassets in Resources */,
+				3FC39FC918D7CB3500E98DAF /* geek.png in Resources */,
+				3FC39FCC18D7CB3500E98DAF /* navControll.png in Resources */,
 				3FC39F9918D7CAC700E98DAF /* InfoPlist.strings in Resources */,
 				3FC39FA218D7CAC700E98DAF /* Main.storyboard in Resources */,
+				3FC39FC818D7CB3500E98DAF /* female.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +276,7 @@
 			files = (
 				3FC39FA518D7CAC700E98DAF /* ViewController.m in Sources */,
 				3FC39F9F18D7CAC700E98DAF /* AppDelegate.m in Sources */,
+				3FC39FCF18D7D88900E98DAF /* UberView.m in Sources */,
 				3FC39F9B18D7CAC700E98DAF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -380,6 +406,7 @@
 				GCC_PREFIX_HEADER = "My Story/My Story-Prefix.pch";
 				INFOPLIST_FILE = "My Story/My Story-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -393,6 +420,7 @@
 				GCC_PREFIX_HEADER = "My Story/My Story-Prefix.pch";
 				INFOPLIST_FILE = "My Story/My Story-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
